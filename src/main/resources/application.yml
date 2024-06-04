@@ -1,0 +1,24 @@
+spring:
+    application:
+        name: Parcial2
+    datasource:
+        url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/notas}
+        username: ${SPRING_DATASOURCE_USERNAME:root}
+        password: ${SPRING_DATASOURCE_PASSWORD:strong_password}
+
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+    jpa:
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQLDialect
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+
+logging:
+    level:
+        web: trace
+        org:
+            springframework:
+                web: trace

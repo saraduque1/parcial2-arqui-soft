@@ -15,7 +15,7 @@ import lombok.*;
 @Table(name = "estudiante")
 public class Estudiante {
     @Id
-    @Column(name = "student_id")
+    @Column(name = "cedula")
     private String cedula;
 
     @Column(name = "nombre")

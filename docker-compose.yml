@@ -1,0 +1,27 @@
+services:
+    db:
+        image: mysql:8.0
+        restart: always
+        ports:
+            - 3306:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_DATABASE: notas
+        volumes:
+            - db-data:/var/lib/mysql
+            - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+
+    spring-app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 8080:8080
+        depends_on:
+            - db
+        environment:
+            SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/notas
+            SPRING_DATASOURCE_USERNAME: root
+            SPRING_DATASOURCE_PASSWORD: password
+volumes:
+    db-data:

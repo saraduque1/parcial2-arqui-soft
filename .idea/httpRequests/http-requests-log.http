@@ -1,0 +1,10 @@
+GET http://localhost:8080/swagger-ui.html
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-04T180820.200.html
+
+###
+

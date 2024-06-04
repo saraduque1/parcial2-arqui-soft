@@ -1,5 +1,6 @@
 package com.arquisoft.Parcial2.domain.DTO;
 
+import org.springframework.hateoas.RepresentationModel;
 import lombok.*;
 
 import java.util.List;
@@ -10,7 +11,7 @@ import java.util.List;
 @Getter
 @Setter
 @Data
-public class MateriaDTO {
+public class MateriaDTO extends RepresentationModel<MateriaDTO> {
     private String codigoMateria;
     private List<Integer> notas;
 }

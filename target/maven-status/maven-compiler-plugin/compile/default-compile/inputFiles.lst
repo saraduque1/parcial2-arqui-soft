@@ -1,0 +1,11 @@
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/Parcial2Application.java
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/controller/NotasController.java
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/domain/DTO/MateriaDTO.java
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/domain/model/Estudiante.java
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/domain/model/Materia.java
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/domain/model/Nota.java
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/repositories/EstudianteDAO.java
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/repositories/MateriaDAO.java
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/repositories/NotaDAO.java
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/services/Impl/NotaServiceImpl.java
+/home/gerardc/Workspace/parcial2-arqui-soft/src/main/java/com/arquisoft/Parcial2/services/NotaService.java
